@@ -32,7 +32,7 @@ class Modal extends React.Component {
     }
     handlePopState () {
         // Whenever someone navigates, we want to be closed
-        this.props.onRequestClose();
+        this.props.onRequestClose("popstate");
     }
     get id () {
         return `modal-${this.props.id}`;

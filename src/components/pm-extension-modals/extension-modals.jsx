@@ -6,27 +6,64 @@ import classNames from 'classnames';
 
 import styles from './extension-modals.css';
 
-const ExtensionModal = props => (
-    <Modal
-        className={styles.modalContent}
-        onRequestClose={props.onCancel}
-        contentLabel={props.title}
-        id="extensionCreatedModal"
-    >
-        <Box className={styles.body}>
-            {props._debugText && (
-                <p>{props._debugText}</p>
-            )}
-        </Box>
-    </Modal>
-);
+const ExtensionModal = props => {
+    const rawContainerRef = React.useRef(null);
+    const rawButtonsRef = React.useRef(null);
+
+    React.useEffect(() => {
+        if (props.onMount && rawContainerRef.current) {
+            props.onMount(rawContainerRef.current);
+        }
+        if (props.onButtonsMount && rawButtonsRef.current) {
+            props.onButtonsMount(rawButtonsRef.current);
+        }
+
+        return () => {
+            if (props.onUnmount && (rawContainerRef.current || rawButtonsRef.current)) {
+                props.onUnmount(rawContainerRef.current, rawButtonsRef.current);
+            }
+        };
+    }, [props.onMount, props.onButtonsMount, props.onUnmount]);
+
+    return (
+        <Modal
+            className={styles.modalContent}
+            onRequestClose={(reason) => props.onCancel(reason === "popstate" ? "popstate" : "exit")}
+            contentLabel={props.title}
+            id="extensionCreatedModal"
+        >
+            <Box className={styles.body}>
+                {props.debugText && (
+                    <p>{props.debugText}</p>
+                )}
+
+                <div ref={rawContainerRef} />
+
+                {props.hasButtonRow && (
+                    <Box className={styles.buttonRow}>
+                        <div ref={rawButtonsRef} />
+                    </Box>
+                )}
+            </Box>
+        </Modal>
+    );
+};
 
 ExtensionModal.propTypes = {
     vm: PropTypes.any,
+
+    // native properties
     title: PropTypes.string,
-    _debugText: PropTypes.string,
+    debugText: PropTypes.string,
+    hasButtonRow: PropTypes.bool,
+
+    // make custom element stuff
+    onMount: PropTypes.func,
+    onButtonsMount: PropTypes.func,
+    onUnmount: PropTypes.func,
+
+    // native callbacks
     onCancel: PropTypes.func.isRequired,
-    onOk: PropTypes.func.isRequired
 };
 
 export default ExtensionModal;

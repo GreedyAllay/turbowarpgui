@@ -65,14 +65,3 @@
 .button-row button.cancel-button {
     color: black;
 }
-
-.help-text {
-    margin-bottom: 1rem;
-}
-
-.must-change {
-    font-weight: bold;
-}
-.reset-link {
-    cursor: pointer;
-}
