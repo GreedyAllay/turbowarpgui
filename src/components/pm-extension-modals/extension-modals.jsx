@@ -33,8 +33,8 @@ const ExtensionModal = props => {
             id="extensionCreatedModal"
         >
             <Box className={styles.body}>
-                {props.debugText && (
-                    <p>{props.debugText}</p>
+                {props.message && (
+                    <p>{props.message}</p>
                 )}
 
                 <div ref={rawContainerRef} />
@@ -54,7 +54,7 @@ ExtensionModal.propTypes = {
 
     // native properties
     title: PropTypes.string,
-    debugText: PropTypes.string,
+    message: PropTypes.string,
     hasButtonRow: PropTypes.bool,
 
     // make custom element stuff
