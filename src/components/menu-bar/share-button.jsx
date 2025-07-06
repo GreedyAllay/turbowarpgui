@@ -148,7 +148,7 @@ class ShareButton extends React.Component {
             }
 
             const url = location.origin;
-            window.open(`https://penguinmod.com/${targetPage}?name=${this.props.projectTitle}${editPiece}${remixPiece}&external=${url}`, '_blank');
+            window.open(`https://cattiesworld.nl/${targetPage}?name=${this.props.projectTitle}${editPiece}${remixPiece}&external=${url}`, '_blank');
         });
     }
     render() {

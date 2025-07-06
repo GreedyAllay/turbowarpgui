@@ -7,14 +7,14 @@ const manifest = {
   "settings": [
     {
       "dynamic": true,
-      "name": "Sprites",
+      "name": "GameObjects",
       "id": "sprites",
       "type": "boolean",
       "default": true
     },
     {
       "dynamic": true,
-      "name": "Costumes and backdrops",
+      "name": "Textures",
       "id": "costumes",
       "type": "boolean",
       "default": true

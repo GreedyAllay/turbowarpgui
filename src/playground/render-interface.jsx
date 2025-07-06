@@ -156,7 +156,7 @@ const Footer = () => (
                             id="tw.footer.credits"
                         />
                     </a>
-                    <a href="https://penguinmod.com/donate">
+                    <a href="https://cattiesworld.nl/donate">
                         <FormattedMessage
                             defaultMessage="Donate"
                             description="Donation link in footer"
@@ -196,14 +196,14 @@ const Footer = () => (
                     </a>
                 </div>
                 <div className={styles.footerSection}>
-                    <a href="https://penguinmod.com/terms">
+                    <a href="https://cattiesworld.nl/terms">
                         <FormattedMessage
                             defaultMessage="Terms of Service"
                             description="Link to Terms of Service"
                             id="pm.terms"
                         />
                     </a>
-                    <a href="https://penguinmod.com/privacy">
+                    <a href="https://cattiesworld.nl/privacy">
                         <FormattedMessage
                             defaultMessage="Privacy Policy"
                             description="Link to privacy policy"
@@ -343,7 +343,7 @@ class Interface extends React.Component {
                     {isHomepage && projectId !== '0' && title && extraProjectInfo && extraProjectInfo.author && <div className={styles.projectDetails}>
                         <a
                             target="_blank"
-                            href={`https://penguinmod.com/profile?user=${extraProjectInfo.author}`}
+                            href={`https://cattiesworld.nl/profile?user=${extraProjectInfo.author}`}
                             rel="noreferrer"
                         >
                             <img
@@ -357,7 +357,7 @@ class Interface extends React.Component {
                             <h2 dangerouslySetInnerHTML={{__html: formatProjectTitle(title)}} />
                             <p>by <a
                                 target="_blank"
-                                href={`https://penguinmod.com/profile?user=${extraProjectInfo.author}`}
+                                href={`https://cattiesworld.nl/profile?user=${extraProjectInfo.author}`}
                                 rel="noreferrer"
                             >{extraProjectInfo.author}</a></p>
                         </div>
@@ -389,7 +389,7 @@ class Interface extends React.Component {
                                         <a
                                             style={{height: '32px'}}
                                             target="_blank"
-                                            href={`https://penguinmod.com/profile?user=${remixedProjectInfo.author}`}
+                                            href={`https://cattiesworld.nl/profile?user=${remixedProjectInfo.author}`}
                                             rel="noreferrer"
                                         >
                                             <img
@@ -403,7 +403,7 @@ class Interface extends React.Component {
                                             Thanks to <b>
                                                 <a
                                                     target="_blank"
-                                                    href={`https://penguinmod.com/profile?user=${remixedProjectInfo.author}`}
+                                                    href={`https://cattiesworld.nl/profile?user=${remixedProjectInfo.author}`}
                                                     rel="noreferrer"
                                                 >
                                                     {remixedProjectInfo.author}
@@ -459,7 +459,7 @@ class Interface extends React.Component {
                                         <a
                                             target="_blank"
                                             rel="noreferrer"
-                                            href={`https://penguinmod.com/report?type=project&id=${projectId}`}
+                                            href={`https://cattiesworld.nl/report?type=project&id=${projectId}`}
                                             className={styles.reportLink}
                                         >
                                             <img
@@ -476,7 +476,7 @@ class Interface extends React.Component {
                             </div>
                             <a
                                 target="_blank"
-                                href="https://penguinmod.com/search?q=newest:"
+                                href="https://cattiesworld.nl/search?q=newest:"
                                 rel="noreferrer"
                             >
                                 See more projects

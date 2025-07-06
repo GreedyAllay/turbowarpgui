@@ -20,7 +20,7 @@ const fromHardcodedGithub = username => ({
     text: username
 });
 const fromHardcodedNamed = username => ({
-    image: `https://penguinmod.com/unknown_user.png`,
+    image: `https://cattiesworld.nl/unknown_user.png`,
     href: "https://studio.penguinmod.com/credits.html#",
     text: username
 });
@@ -184,7 +184,7 @@ const pmPullRequestDevelopers = [ // these people made a PR that got merged, or 
     },
     {  // rx or ry single fix
         text: 'NotCryptid',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: `https://github.com/NotCryptid/`,
     },
     {
@@ -211,12 +211,12 @@ const pmApiDevelopers = [
 const pmTranslators = [
     {
         text: 'kolikiscool',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'n0name',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
@@ -227,7 +227,7 @@ const pmTranslators = [
     {
         text: 'NamelessCat',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=cat`,
-        href: "https://penguinmod.com/profile?user=cat",
+        href: "https://cattiesworld.nl/profile?user=cat",
     },
     {
         text: 'Just-Noone',
@@ -236,7 +236,7 @@ const pmTranslators = [
     },
     {
         text: 'goose_but_smart',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
@@ -247,22 +247,22 @@ const pmTranslators = [
     {
         text: 'MrRedstonia',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=mrredstonia`,
-        href: "https://penguinmod.com/profile?user=mrredstonia",
+        href: "https://cattiesworld.nl/profile?user=mrredstonia",
     },
     {
         text: 'TheShovel',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=TheShovel`,
-        href: "https://penguinmod.com/profile?user=TheShovel",
+        href: "https://cattiesworld.nl/profile?user=TheShovel",
     },
     {
         text: 'SmolBoi37',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'GigantTech',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=GigantTech`,
-        href: "https://penguinmod.com/profile?user=GigantTech",
+        href: "https://cattiesworld.nl/profile?user=GigantTech",
     },
     {
         text: 'hacker_anonimo',
@@ -286,7 +286,7 @@ const pmTranslators = [
     },
     {
         text: 'Gabberythethughunte',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
@@ -297,7 +297,7 @@ const pmTranslators = [
     {
         text: 'DenPlayTS',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=denplayts`,
-        href: "https://penguinmod.com/profile?user=denplayts",
+        href: "https://cattiesworld.nl/profile?user=denplayts",
     },
     {
         text: 'Tsalbre',
@@ -307,7 +307,7 @@ const pmTranslators = [
     {
         text: 'MubiLop',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=MubiLop`,
-        href: "https://penguinmod.com/profile?user=MubiLop",
+        href: "https://cattiesworld.nl/profile?user=MubiLop",
     },
     {
         text: 'TLP136',
@@ -331,13 +331,13 @@ const pmTranslators = [
     },
     {
         text: 'con-zie',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'ImNotScratchY_lolol',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=ImNotScratchY_lolol`,
-        href: "https://penguinmod.com/profile?user=ImNotScratchY_lolol",
+        href: "https://cattiesworld.nl/profile?user=ImNotScratchY_lolol",
     },
     {
         text: 'justablock',
@@ -347,12 +347,12 @@ const pmTranslators = [
     {
         text: 'inventionpro',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=inventionpro`,
-        href: "https://penguinmod.com/profile?user=inventionpro",
+        href: "https://cattiesworld.nl/profile?user=inventionpro",
     },
     {
         text: 'SkyBuilder1717',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=SkyBuilder1717`,
-        href: "https://penguinmod.com/profile?user=SkyBuilder1717",
+        href: "https://cattiesworld.nl/profile?user=SkyBuilder1717",
     },
     {
         text: 'Parham1258',
@@ -367,7 +367,7 @@ const pmTranslators = [
     {
         text: 'Oldcoinmania',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=Oldcoinmania`,
-        href: "https://penguinmod.com/profile?user=Oldcoinmania",
+        href: "https://cattiesworld.nl/profile?user=Oldcoinmania",
     },
     {
         text: 'mariocraft987',
@@ -382,17 +382,17 @@ const pmTranslators = [
     {
         text: 'enduh',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=enduh`,
-        href: "https://penguinmod.com/profile?user=enduh",
+        href: "https://cattiesworld.nl/profile?user=enduh",
     },
     {
         text: 'riwataNOUVEAU',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=riwataNOUVEAU`,
-        href: "https://penguinmod.com/profile?user=riwataNOUVEAU",
+        href: "https://cattiesworld.nl/profile?user=riwataNOUVEAU",
     },
     {
         text: 'Prode',
         image: `https://projects.penguinmod.com/api/v1/users/getpfp?username=Prode`,
-        href: "https://penguinmod.com/profile?user=Prode",
+        href: "https://cattiesworld.nl/profile?user=Prode",
     },
 ];
 
@@ -426,73 +426,73 @@ const pmCostumeSubmittors = [
     // unknown
     {
         text: 'maroonmball',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'eviepepsi',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: '1340073',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'cubeycreator',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'novaspiderultra',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'poundpound0209',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'gdplayer1035',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'cognitixsammy',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'thebusyman',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'skyglide5',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'cxnnie09',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'hoveras',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'blockgamer904',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: "Anonygoose's Dog (Max)",
         image: "https://projects.penguinmod.com/api/v1/users/getpfp?username=anonygoosedog",
-        href: "https://penguinmod.com/profile?user=anonygoosedog",
+        href: "https://cattiesworld.nl/profile?user=anonygoosedog",
     },
     {
         text: 'mildannerofc',
@@ -501,42 +501,42 @@ const pmCostumeSubmittors = [
     },
     {
         text: 'bonemaster96',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'phicicle',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'ron027257',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'fur1na__',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: '00ee8a',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'alf2003_14729',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'pedrotheawsomeguy',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'david342013',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
 ];
@@ -560,47 +560,47 @@ const pmSoundSubmittors = [
     // unknown
     {
         text: 'maroonmball',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'jn567',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'lukepuke311',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'ma_01',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'poundpound0209',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'cognitixsammy',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'mememaster9000',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'rydia_theawesome',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
         text: 'jackunavailable',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
     {
@@ -610,7 +610,7 @@ const pmSoundSubmittors = [
     },
     {
         text: 'gdplayer1035',
-        image: `https://penguinmod.com/unknown_user.png`,
+        image: `https://cattiesworld.nl/unknown_user.png`,
         href: "https://studio.penguinmod.com/credits.html#",
     },
 ];
