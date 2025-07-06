@@ -178,7 +178,7 @@ class ShareButton extends React.Component {
                                 id="gui.menuBar.remix"
                             /> :
                             <FormattedMessage
-                                defaultMessage="Upload"
+                                defaultMessage="Back to game"
                                 description="Label for project share button"
                                 id="gui.menuBar.pmshare"
                             />)}

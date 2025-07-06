@@ -23,22 +23,22 @@ const manifest = {
       "potentialValues": [
         {
           "id": "library",
-          "name": "Library"
+          "name": "Asset Library"
         },
         {
           "id": "paint",
-          "name": "Paint"
+          "name": "New"
         },
         {
           "id": "surprise",
-          "name": "Surprise"
+          "name": "Random"
         },
         {
           "id": "upload",
-          "name": "Upload"
+          "name": "Import"
         }
       ],
-      "default": "paint"
+      "default": "new"
     },
     {
       "dynamic": true,
@@ -52,18 +52,18 @@ const manifest = {
         },
         {
           "id": "paint",
-          "name": "Paint"
+          "name": "New"
         },
         {
           "id": "surprise",
-          "name": "Surprise"
+          "name": "Random"
         },
         {
           "id": "upload",
-          "name": "Upload"
+          "name": "Import"
         }
       ],
-      "default": "paint"
+      "default": "new"
     },
     {
       "dynamic": true,

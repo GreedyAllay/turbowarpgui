@@ -437,7 +437,7 @@ class MenuBar extends React.Component {
     render() {
         const saveNowMessage = (
             <FormattedMessage
-                defaultMessage="Save now"
+                defaultMessage="Save"
                 description="Menu bar item for saving now"
                 id="gui.menuBar.saveNow"
             />
@@ -658,7 +658,7 @@ class MenuBar extends React.Component {
                                                             // eslint-disable-next-line max-len
                                                             <MenuItem onClick={this.getSaveToComputerHandler(extended.saveToLastFile)}>
                                                                 <FormattedMessage
-                                                                    defaultMessage="Save to {file}"
+                                                                    defaultMessage="Save as {file}"
                                                                     // eslint-disable-next-line max-len
                                                                     description="Menu bar item to save project to an existing file on the user's computer"
                                                                     id="tw.saveTo"
