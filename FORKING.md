@@ -22,6 +22,3 @@ Unless you plan on keeping your mod 100% compatible with Gaymod, please remove t
 Our APIs are only built for Gaymod and therefore will likely end up breaking in your mod at some point or another.
 
 We also do not allow projects that only work outside of Gaymod so if we end up having a lot of broken uploads from your site, then we'll have to block your site from being able to use the project API.
-
-
-fuckl you Penguinmod
