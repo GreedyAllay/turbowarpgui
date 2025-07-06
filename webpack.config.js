@@ -167,35 +167,35 @@ module.exports = [
                 chunks: ['editor'],
                 template: 'src/playground/index.ejs',
                 filename: 'editor.html',
-                title: 'PenguinMod - Editor',
+                title: "Cattie's World - Editor",
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['playground'],
                 template: 'src/playground/index.ejs',
                 filename: 'playground.html',
-                title: 'PenguinMod - Playground',
+                title: "Cattie's World - Playground",
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['player'],
                 template: 'src/playground/index.ejs',
                 filename: 'index.html',
-                title: 'PenguinMod - A mod of TurboWarp',
+                title: "Cattie's World - A mod of TurboWarp",
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['fullscreen'],
                 template: 'src/playground/index.ejs',
                 filename: 'fullscreen.html',
-                title: 'PenguinMod - A mod of TurboWarp',
+                title: "Cattie's World - A mod of TurboWarp",
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
                 chunks: ['embed'],
                 template: 'src/playground/index.ejs',
                 filename: 'embed.html',
-                title: 'Embedded Project - PenguinMod',
+                title: "Embedded Project - Cattie's World",
                 noTheme: true,
                 ...htmlWebpackPluginCommon
             }),
@@ -203,7 +203,7 @@ module.exports = [
                 chunks: ['addon-settings'],
                 template: 'src/playground/simple.ejs',
                 filename: 'addons.html',
-                title: 'Addon Settings - PenguinMod',
+                title: "Addon Settings - Cattie's World",
                 ...htmlWebpackPluginCommon
             }),
             new HtmlWebpackPlugin({
