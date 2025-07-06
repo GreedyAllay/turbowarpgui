@@ -959,14 +959,14 @@ class MenuBar extends React.Component {
                     <div className={styles.menuBarItem}>
                         <a
                             className={styles.feedbackLink}
-                            href="https://penguinmod.com"
+                            href="https://www.cattiesworld.nl"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
                             <Button className={styles.feedbackButton}>
                                 <FormattedMessage
-                                    defaultMessage="Back to Home"
-                                    description="Button to go back to the home page"
+                                    defaultMessage="Back to Game"
+                                    description="Button to go back to Cattie's World"
                                     id="pm.backToHomeButton"
                                 />
                             </Button>
