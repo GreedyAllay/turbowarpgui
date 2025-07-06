@@ -25,7 +25,7 @@ $motion-primary-dark: hsla(0, 0%, 21%, 1); /*top bar color when in dark mode*/
 $ui-primary-light: hsla(215, 100%, 95%, 1);
 $ui-secondary-light: hsla(215, 75%, 95%, 1);
 $ui-tertiary-light: hsla(215, 50%, 90%, 1);
-$text-primary-light: hsla(225, 15%, 40%, 1);
+$text-primary-light: hsla(0, 100%, 70%, 0.3);
 
 $red-primary: hsla(0, 100%, 70%, 1); /* #00c3ff */
 $red-tertiary: hsla(0, 22%, 45%, 1); /* #007bc7 */
