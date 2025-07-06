@@ -111,7 +111,7 @@ const SBFileUploaderHOC = function (WrappedComponent) {
                 
                 // pm: Some bad mobile devices block any file type (iOS)
                 if (!isMobile()) {
-                    this.inputElement.accept = '.sb,.sb2,.sb3,.pm,.pmp';
+                    this.inputElement.accept = '.sb,.sb2,.sb3,.pm,.cw';
                 }
 
                 this.inputElement.style = 'display: none;';
@@ -231,7 +231,7 @@ const SBFileUploaderHOC = function (WrappedComponent) {
                     // Don't update file handle until after confirming replace.
                     const handle = thisFileInput.handle;
                     if (handle) {
-                        if (this.fileToUpload.name.endsWith('.pm') || this.fileToUpload.name.endsWith('.pmp')) {
+                        if (this.fileToUpload.name.endsWith('.pm') || this.fileToUpload.name.endsWith('.cw')) {
                             this.props.onSetFileHandle(handle);
                         } else {
                             this.props.onSetFileHandle(null);
@@ -268,7 +268,7 @@ const SBFileUploaderHOC = function (WrappedComponent) {
             if (!fileInputFilename) return '';
             // only parse title with valid scratch project extensions
             // (.sb, .sb2, and .sb3)
-            const matches = fileInputFilename.match(/^(.*)(\.sb[23]?|\.pm|\.pmp)$/);
+            const matches = fileInputFilename.match(/^(.*)(\.sb[23]?|\.pm|\.cw)$/);
             if (!matches) return '';
             return matches[1].substring(0, 100); // truncate project title to max 100 chars
         }

@@ -82,7 +82,7 @@ const Credits = () => (
             <UserList users={UserData.pmDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <p>There are even community members who have helped develop PenguinMod. People like <i>you!</i></p>
-            <UserList users={UserData.pmPullRequestDevelopers} />
+            <UserList users={UserData.cwullRequestDevelopers} />
             <p><i>The list order is randomized on each refresh.</i></p>
             <p>
                 We've also included work from other open-source projects inside of PenguinMod.
