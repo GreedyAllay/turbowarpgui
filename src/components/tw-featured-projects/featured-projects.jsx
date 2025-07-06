@@ -50,11 +50,11 @@ class FeaturedProjects extends React.Component {
                         }
                     )}
                 >
-                    <StudioView
+                    {/* <StudioView
                         id={this.props.studio}
                         onSelect={this.handleSelect}
                         placeholder={!opened}
-                    />
+                    /> */}
                     {opened ? null : (
                         <div
                             className={styles.openerContainer}

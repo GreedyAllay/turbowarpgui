@@ -343,19 +343,19 @@ class MenuBar extends React.Component {
         switch (deletedItem) {
             case 'Sprite':
                 return (<FormattedMessage
-                    defaultMessage="Restore Sprite"
+                    defaultMessage="Restore GameObject"
                     description="Menu bar item for restoring the last deleted sprite."
                     id="gui.menuBar.restoreSprite"
                 />);
             case 'Sound':
                 return (<FormattedMessage
-                    defaultMessage="Restore Sound"
+                    defaultMessage="Restore Audio"
                     description="Menu bar item for restoring the last deleted sound."
                     id="gui.menuBar.restoreSound"
                 />);
             case 'Costume':
                 return (<FormattedMessage
-                    defaultMessage="Restore Costume"
+                    defaultMessage="Restore Texture"
                     description="Menu bar item for restoring the last deleted costume."
                     id="gui.menuBar.restoreCostume"
                 />);
@@ -700,7 +700,7 @@ class MenuBar extends React.Component {
                                             </React.Fragment>
                                         )}</SB3Downloader>
                                     </MenuSection>
-                                    {this.props.isDirectoryPickerSupported && (
+                                    {/* {this.props.isDirectoryPickerSupported && (
                                         <MenuSection>
                                             <MenuItem
                                                 onClick={this.props.onStartFolderUpload}
@@ -717,7 +717,7 @@ class MenuBar extends React.Component {
                                                 </React.Fragment>
                                             )}</SB3Downloader>
                                         </MenuSection>
-                                    )}
+                                    )} */}
                                     {this.props.onClickPackager && (
                                         <MenuSection>
                                             <MenuItem
@@ -735,16 +735,16 @@ class MenuBar extends React.Component {
                                     <MenuSection>
                                         <MenuItem onClick={this.handleClickRestorePoints}>
                                             <FormattedMessage
-                                                defaultMessage="Restore points"
+                                                defaultMessage="Rollback..."
                                                 description="Menu bar item to manage restore points"
                                                 id="tw.menuBar.restorePoints"
                                             />
                                         </MenuItem>
                                     </MenuSection>
                                     <MenuSection>
-                                        <MenuItem onClick={this.handleClickDownloadLogs}>
+                                        {/* <MenuItem onClick={this.handleClickDownloadLogs}>
                                             {'Download Logs'}
-                                        </MenuItem>
+                                        </MenuItem> */}
                                     </MenuSection>
                                 </MenuBarMenu>
                             </div>
@@ -959,14 +959,14 @@ class MenuBar extends React.Component {
                     <div className={styles.menuBarItem}>
                         <a
                             className={styles.feedbackLink}
-                            href="https://www.cattiesworld.nl"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSefEmT9_0EylN0Vha__0fQiqsjr65D1GdCRLmA49ABHvCRgeQ/viewform"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
                             <Button className={styles.feedbackButton}>
                                 <FormattedMessage
-                                    defaultMessage="Back to Game"
-                                    description="Button to go back to Cattie's World"
+                                    defaultMessage="Submit to Mod List"
+                                    description="Submit mod to the official mod list!"
                                     id="pm.backToHomeButton"
                                 />
                             </Button>

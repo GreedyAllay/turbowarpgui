@@ -10,7 +10,7 @@ import {formatBytes} from '../../lib/tw-bytes-utils';
 
 const messages = defineMessages({
     title: {
-        defaultMessage: 'Restore Points',
+        defaultMessage: 'Backups',
         description: 'Title of restore point management modal',
         id: 'tw.restorePoints.title'
     },
@@ -36,10 +36,17 @@ const messages = defineMessages({
 const MINUTE = 1000 * 60;
 const INTERVAL_OPTIONS = [
     MINUTE * 1,
+    MINUTE * 2,
+    MINUTE * 3,
+    MINUTE * 4,
     MINUTE * 5,
     MINUTE * 10,
     MINUTE * 15,
+    MINUTE * 20,
+    MINUTE * 25,
     MINUTE * 30,
+    MINUTE * 45,
+    MINUTE * 60,
     -1
 ];
 const IntervalSelector = props => (
@@ -89,7 +96,7 @@ const RestorePointModal = props => (
             <p>
                 <FormattedMessage
                     // eslint-disable-next-line max-len
-                    defaultMessage="{APP_NAME} periodically saves restore points on your computer to help recover your project if you forget to save. This is intended as a last resort for recovery. Your computer may silently delete these restore points at any time. DO NOT rely on this feature."
+                    defaultMessage="{APP_NAME} backups are constantly created in case you mess something up or the game crashes."
                     id="tw.restorePoints.description"
                     values={{
                         APP_NAME: APP_NAME
@@ -99,7 +106,7 @@ const RestorePointModal = props => (
 
             <p>
                 <FormattedMessage
-                    defaultMessage="Restore points are created {time}."
+                    defaultMessage="Backups are created {time}."
                     id="tw.restorePoints.intervalOption"
                     // eslint-disable-next-line max-len
                     description="{time} will be replaced with a dropdown with values such as [every 5 minutes] and [never]"
@@ -188,7 +195,7 @@ const RestorePointModal = props => (
                             <div className={styles.totalSizeDescription}>
                                 <FormattedMessage
                                     // eslint-disable-next-line max-len
-                                    defaultMessage="Costumes or sounds used by multiple restore points are only stored once."
+                                    defaultMessage="To save space, textures and sounds used by multiple backups are only stored once :D"
                                     // eslint-disable-next-line max-len
                                     description="Part of the restore point modal that explains why the total storage used is less than may be expected."
                                     id="tw.restorePoints.size2"

@@ -151,7 +151,7 @@ const CustomFPS = props => (
         onChange={props.onChange}
         label={
             <FormattedMessage
-                defaultMessage="60 FPS (Custom FPS)"
+                defaultMessage="Custom Framerate"
                 description="FPS setting"
                 id="tw.settingsModal.fps"
             />
@@ -159,7 +159,7 @@ const CustomFPS = props => (
         help={
             <FormattedMessage
                 // eslint-disable-next-line max-len
-                defaultMessage="Runs scripts 60 times per second instead of 30. Most projects will not work properly with this enabled. You should try Interpolation with 60 FPS mode disabled if that is the case. {customFramerate}."
+                defaultMessage="{customFramerate} Change how fast the screen refreshes and code runs every second."
                 description="FPS setting help"
                 id="tw.settingsModal.fpsHelp"
                 values={{
@@ -169,7 +169,7 @@ const CustomFPS = props => (
                             tabIndex="0"
                         >
                             <FormattedMessage
-                                defaultMessage="Click to use a framerate other than 30 or 60"
+                                defaultMessage="Change framerate"
                                 description="FPS settings help"
                                 id="tw.settingsModal.fpsHelp.customFramerate"
                             />
@@ -351,7 +351,7 @@ const CustomStageSize = ({
         primary={(
             <div className={classNames(styles.label, styles.customStageSize)}>
                 <FormattedMessage
-                    defaultMessage="Stage Size:"
+                    defaultMessage="Aspect Ratio"
                     description="Stage Size option"
                     id="pm.settingsModal.stageSize"
                 />
@@ -568,7 +568,7 @@ const SettingsModalComponent = props => (
                     <Header>
                         <span className={styles.dropdown}>⯈</span>
                         <FormattedMessage
-                            defaultMessage="Unsupported"
+                            defaultMessage="Deprecated"
                             description="Old unsupported settings section"
                             id="pm.settingsModal.unsupported"
                         />
@@ -577,7 +577,7 @@ const SettingsModalComponent = props => (
                 <div className={styles.warning}>
                     <FormattedMessage
                         // eslint-disable-next-line max-len
-                        defaultMessage="The settings here are unsupported and can break at any time. These settings are here as they either have better methods to create their effects with better results, or break often when used with other extensions."
+                        defaultMessage="Interpolation is deprecated, and will probably break when using extensions. Known extensions: Camera, Camera V2"
                         description="Warning about old unsupported settings in settings menu"
                         id="pm.settingsModal.unsupportedWarning"
                     />
