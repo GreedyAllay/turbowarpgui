@@ -8,5 +8,6 @@
         "**/.hg": false,
         "**/.svn": false,
         "**/Thumbs.db": false
-    }
+    },
+    "search.useIgnoreFiles": true
 }
