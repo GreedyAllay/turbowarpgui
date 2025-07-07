@@ -577,7 +577,7 @@ const SettingsModalComponent = props => (
                 <div className={styles.warning}>
                     <FormattedMessage
                         // eslint-disable-next-line max-len
-                        defaultMessage="Interpolation is deprecated, and will probably break when using extensions. Known extensions: Camera, Camera V2"
+                        defaultMessage="Interpolation is deprecated, and will probably break when using certain extensions. Extensions that are known to break it: Camera, Camera V2"
                         description="Warning about old unsupported settings in settings menu"
                         id="pm.settingsModal.unsupportedWarning"
                     />

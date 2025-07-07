@@ -18,7 +18,7 @@ $text-primary-transparent: hsla(225, 15%, 40%, 0.75);
 $motion-primary: hsla(0, 100%, 70%, 1); /* #00c3ff */
 $motion-tertiary: hsla(0, 22%, 45%, 1); /* #007bc7 */
 $motion-transparent: hsla(0, 100%, 70%, 0.35); /* 35% transparent version of motion-primary */
-$motion-light-transparent: hsla(0, 0%, 34%, 1); /* 15% transparent version of motion-primary */
+$motion-light-transparent: hsla(0, 0%, 50%, 0.25); /* 15% transparent version of motion-primary */
 
 /* opt-in theme overrides */
 $motion-primary-dark: hsla(0, 0%, 21%, 1); /*top bar color when in dark mode*/
